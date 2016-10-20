@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffff99"
+    android:layout_marginBottom="3dp">
+
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:minWidth="48dp"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:text="haha"
+        android:background="#ffff33"
+        android:layout_marginBottom="3dp"
+
+ />
+</RelativeLayout>
