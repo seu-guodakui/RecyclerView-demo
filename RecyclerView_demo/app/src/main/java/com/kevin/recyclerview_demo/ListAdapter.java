@@ -71,7 +71,7 @@ public class ListAdapter extends RecyclerView.Adapter<ListAdapter.ItemViewHolder
         if (position<0){
             position=0;
         }
-        mDatas.add(value);
+        mDatas.add(position,value);
 
         notifyItemInserted(position);
     }
